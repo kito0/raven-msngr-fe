@@ -1,0 +1,32 @@
+.sidebar_chat {
+	display: flex;
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 24px;
+	cursor: pointer;
+	border-bottom: 1 px solid black;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+	height: 7.5%;
+}
+.sidebar_chat:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.sidebar_chat_info {
+	margin-left: 15px;
+	margin-top: -18px;
+}
+.sidebar_chat_info > h2 {
+	font-size: 16px;
+}
+.sidebar_chat_info > p {
+	font-size: 12px;
+	margin-top: -4px;
+}
+.sidebar_chat > .MuiSvgIcon-root {
+	margin-right: 5px;
+	font-size: 10px;
+}
+.avatar {
+	size: 5px;
+}
